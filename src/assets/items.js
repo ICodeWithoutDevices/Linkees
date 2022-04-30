@@ -11,11 +11,11 @@ const items = [{
     "title": "Website",
     "subtitle": "Look at my work!",
     "image": website,
-    "link": "https://sagniksahoo.codes" //your personal website or portfolio  link
+    "link": "https://nohashop.xyz" //your personal website or portfolio  link
 },
 {
     "title": "GitHub",
-    "subtitle": "@heysagnik | 🏠 of my open-source projects",
+    "subtitle": "My github repo, where i make my projects",
     "image": github,
     "link": "https://github.com/heysagnik" //Github Profile link
 },
