@@ -6,7 +6,7 @@ import dribbble from '../assets/dribbble.png'
 import github from '../assets/github.png'
 import telegram from '../assets/telegram.png'
 import twitter from '../assets/twitter.png'
-import discord from '../asstes/discord.gif'
+import discord from '../assets/discord.gif'
 
 const items = [{
     "title": "Website",
