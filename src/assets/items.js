@@ -6,6 +6,7 @@ import dribbble from '../assets/dribbble.png'
 import github from '../assets/github.png'
 import telegram from '../assets/telegram.png'
 import twitter from '../assets/twitter.png'
+import discord from '../asstes/discord.gif'
 
 const items = [{
     "title": "Website",
@@ -32,9 +33,9 @@ const items = [{
     "link": "https://twitter.com/heysagnik"// twitter profile link 
 },
 {
-    "title": "Apps",
-    "subtitle": "Hub of my awesome 🔥 Apps",
-    "image": appstore,
+    "title": "Discord",
+    "subtitle": "My Discord Server",
+    "image": discord,
     "link": "#"//
 },
 {
