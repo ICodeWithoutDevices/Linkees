@@ -8,16 +8,10 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './css/skeleton.css'
 import './css/normalize.css'
 
-import Home from './public/index'
-import PageNotFound from './public/404'
 
-function App({ currentUser, checkUserSession }) {
+function App() {
     return ( 
-        <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route component={PageNotFound} />
-        </Switch>
+     
    
         <div className = "App" >
             <Header></Header>
@@ -38,7 +32,7 @@ function App({ currentUser, checkUserSession }) {
             </div>
             <Footer></Footer>
         </div>
-        </Router>
+ 
     );
 }
 
