@@ -3,7 +3,6 @@ import Header from './components/Header'
 import Card from './components/Card'
 import Footer from './components/Footer'
 import items from './assets/items'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import './css/skeleton.css'
 import './css/normalize.css'
