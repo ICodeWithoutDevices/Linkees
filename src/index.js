@@ -9,7 +9,7 @@ const Web = () => (
   
      <Router>
       <Routes>
-      <Route exact path="/" component={<App/>} />
+      <Route path="/" component={<App/>} />
       <Route component={<NotFound/>} />
      </Routes>
      </Router> 
@@ -17,4 +17,4 @@ const Web = () => (
 
 )
 //ReactDOM.render( < React.StrictMode ></React.StrictMode>,document.getElementById('root'));
-render(  < React.StrictMode ><Web/> </React.StrictMode>, document.getElementById('root'));
+render(  < React.StrictMode ><Web /> </React.StrictMode>, document.getElementById('root'));
