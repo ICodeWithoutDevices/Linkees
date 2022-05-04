@@ -16,4 +16,4 @@ const Web = () => (
 
 )
 //ReactDOM.render( < React.StrictMode ></React.StrictMode>,document.getElementById('root'));
-render(< React.StrictMode > <Web /> </React.StrictMode>, document.getElementById('root'));
+render(< React.StrictMode > <App /> </React.StrictMode>, document.getElementById('root'));
