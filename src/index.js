@@ -6,15 +6,14 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 import NotFound from './NotFound';
 const Web = () => (
-  
-     <Router>
+      <Router>
       <Routes>
       <Route exact path="/" component={<App/>} />
       <Route component={<NotFound/>} />
      </Routes>
-     </Router> 
+</Router> 
    
 
 )
 //ReactDOM.render( < React.StrictMode ></React.StrictMode>,document.getElementById('root'));
-render(  < React.StrictMode ><Web /> </React.StrictMode>, document.getElementById('root'));
+render(< React.StrictMode > <Web /> </React.StrictMode>, document.getElementById('root'));
