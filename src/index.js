@@ -9,7 +9,7 @@ const Web = () => (
   
      <Router>
       <Routes>
-      <Route path="/" component={<App/>} />
+      <Route exact path="/" component={<App/>} />
       <Route component={<NotFound/>} />
      </Routes>
      </Router> 
